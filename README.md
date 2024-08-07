@@ -2,6 +2,8 @@
 
 A React component for generating JSON schemas visually.
 
+![JSON Schema Generator Screenshot](https://github.com/franz-biz/react-json-schema-generator/blob/main/screenshot.png?raw=true)
+
 ## Installation
 
 ```bash
