@@ -1,0 +1,202 @@
+.json-schema-generator {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.json-schema-generator .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.json-schema-generator h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.json-schema-generator .description {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.json-schema-generator .breadcrumbs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.json-schema-generator .breadcrumbs a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.json-schema-generator .breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+.json-schema-generator .breadcrumbs .separator {
+    margin: 0 8px;
+    color: #999;
+}
+
+.json-schema-generator .property-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.json-schema-generator input[type="text"],
+.json-schema-generator select {
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.json-schema-generator input[type="text"] {
+    flex-grow: 1;
+}
+
+.json-schema-generator .required-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.json-schema-generator .required-checkbox label {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.json-schema-generator button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.json-schema-generator .add-button,
+.json-schema-generator .import-button {
+    background-color: #007bff;
+    color: white;
+}
+
+.json-schema-generator .add-button:hover,
+.json-schema-generator .import-button:hover {
+    background-color: #0056b3;
+}
+
+.json-schema-generator .properties-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.json-schema-generator .properties-table th,
+.json-schema-generator .properties-table td {
+    border: 1px solid #dee2e6;
+    padding: 10px;
+    text-align: left;
+}
+
+.json-schema-generator .properties-table th {
+    background-color: #e9ecef;
+    font-weight: bold;
+}
+
+.json-schema-generator .actions {
+    display: flex;
+    gap: 5px;
+}
+
+.json-schema-generator .remove-button,
+.json-schema-generator .navigate-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.json-schema-generator .remove-button:hover,
+.json-schema-generator .navigate-button:hover {
+    background-color: #c82333;
+}
+
+.json-schema-generator .toggle-preview-button {
+    background-color: #6c757d;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.json-schema-generator .toggle-preview-button:hover {
+    background-color: #5a6268;
+}
+
+.json-schema-generator .json-preview {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    padding: 15px;
+    white-space: pre-wrap;
+    font-family: monospace;
+    font-size: 14px;
+    overflow-x: auto;
+}
+
+.json-schema-generator .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.json-schema-generator .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.json-schema-generator .modal h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.json-schema-generator .modal textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.json-schema-generator .modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.json-schema-generator .import-json-button,
+.json-schema-generator .import-schema-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.json-schema-generator .import-json-button:hover,
+.json-schema-generator .import-schema-button:hover {
+    background-color: #218838;
+}
